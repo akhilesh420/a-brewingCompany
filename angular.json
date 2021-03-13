@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "a-brewingCompany"
+    }
+  },
+  "defaultProject": "a-brewingCompany",
+  "cli": {
+    "analytics": false
+  }
 }
