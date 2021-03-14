@@ -1,0 +1,59 @@
+<div class = "backdrop">
+
+    <!-- <div class="container"> -->
+
+        <div class="hangTag">
+
+            <img class = "hangTagSizing" 
+                 src = 'assets/Images/hangTag.png'
+                 (load)="getThemeImageWidth()"
+                 #themeImage>
+
+        </div>
+
+        <div class = "brewTextContent"
+             [ngStyle]='{"left": ((themeImageWidth + 78).toString() + "px")}'>
+
+            <div class = "title">
+
+                <span class = "heading">Leisure</span><br>
+                <span class = "subHeading">Cold Brew</span>
+
+            </div>
+
+            <div class = "paragraph">
+
+                <span class = "paraHeading">
+
+                    100% Mysore Nuggets <br>
+                    Arabica
+                    <br>
+                    <br>
+
+                </span>
+
+                <span class = "paraContent">
+
+                    With love from the  birthplace of Indian coffee.
+                    <br>
+                    According to legend, Baba Budangiri <br>
+                    introduced coffee to Chikmanglur by <br>
+                    bringing seven raw beans from Yemen, <br>
+                    sewn into the hem of his robes.<br>
+                    <br>
+                    [estate name]
+                    <br>
+                    <br>
+                    A mellow, long lasting buzz. 
+                </span>
+
+            </div>
+
+         </div>
+
+
+
+
+    <!-- </div> -->
+
+</div>

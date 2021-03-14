@@ -1,0 +1,70 @@
+.backdrop {
+    background: #CFB284;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hangTag {
+    position: relative;
+    display: block;
+    left: 0%;
+    top: 0%;
+    height: 100vh;
+    width: auto;
+}
+
+.hangTagSizing {
+    height: 100vh;
+    width: auto;
+}
+
+.brewTextContent {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.heading {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.subHeading {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;  
+    color: #FFFFFF;
+}
+
+.paragraph {
+    padding-top: 26px;
+}
+
+.paraHeading {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.paraContent {
+    font-family: 'Cutive';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+

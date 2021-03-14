@@ -1,0 +1,71 @@
+.backdrop {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    background:  linear-gradient(112.43deg, #E3A96A 12.48%, #CFB284 42.66%);
+    display: grid;
+    place-items: center;
+}
+
+.grid {
+    height: 100vh;
+    width: 790px;
+}
+
+.landingpageSVGSize {
+    height: 113px;
+    width: 95px;
+}
+
+
+.aboutUsButton {
+    position: relative;
+    padding-top: 182px;
+    padding-left: 0px;
+    display: inline-block;
+    
+}
+
+.orderButton {
+    position: relative;
+    padding-top: 182px;
+    padding-left: 61px;
+    display: inline-block;
+}
+
+.contactButton {
+    position: relative;
+    padding-top: 182px;
+    padding-left: 61px;
+    display: inline-block;
+}
+
+.tagline {
+    position: relative;
+    display: block;
+    padding-top: 109px;
+    padding-left: 0px;
+
+}
+
+
+.instaHandle {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.logoPic {
+    position: absolute;
+    bottom: -5px;
+    right: 10%;
+    
+}
+
+.logoPicSizing {
+    height: 70vh;
+    width: auto;
+}
+
