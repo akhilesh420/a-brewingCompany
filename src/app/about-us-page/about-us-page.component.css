@@ -1,3 +1,20 @@
+.orderButton {
+    position: absolute;
+    top: 20px;
+    right: 86px;
+}
+
+.contactButton {
+    position: absolute;
+    top: 20px;
+    right: 19px;
+}
+
+.aboutUsSVGSize {
+    height: 70px;
+    width: auto;
+}
+
 .mainText {
     position: absolute;
     top: 50%;
