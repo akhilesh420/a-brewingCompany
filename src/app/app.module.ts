@@ -9,13 +9,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { OrderPageComponent } from './order-page/order-page.component';
+import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MainComponent,
-    OrderPageComponent
+    OrderPageComponent,
+    AboutUsPageComponent
   ],
   imports: [
     BrowserModule,

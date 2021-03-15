@@ -89,7 +89,13 @@
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
-
-
+    right: 5%;
 }
 
+.orderMenu {
+    padding-top: 25px;
+}
+
+.dmButton {
+    padding-top: 6px;
+}
