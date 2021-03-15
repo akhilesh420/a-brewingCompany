@@ -68,3 +68,20 @@
     color: #FFFFFF;
 }
 
+.aboutUsButton {
+    position: absolute;
+    top: 20px;
+    right: 86px;
+}
+
+.contactButton {
+    position: absolute;
+    top: 20px;
+    right: 19px;
+}
+
+.orderpageSVGSize {
+    height: 70px;
+    width: auto;
+}
+
