@@ -1,8 +1,4 @@
-.html {
-    overflow-x:hidden;
-}
-
-::-moz-scrollbar,
+/* ::-moz-scrollbar,
 ::-webkit-scrollbar {
   display: none;
-}
+} */
