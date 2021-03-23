@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -25,6 +26,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    RouterModule,
     AppRoutingModule
   ],
   providers: [],
