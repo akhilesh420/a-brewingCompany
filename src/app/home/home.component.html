@@ -2,21 +2,30 @@
 
     <div class = "grid">
 
-        <div class = "aboutUsButton">
+        <div class = "aboutUsButton"  >
 
-            <img class = "landingpageSVGSize" src = "assets/Images/aboutUsButton.svg">
+            <img class = "landingpageSVGSize route"
+                 src = "assets/Images/aboutUsButton.svg"
+                 [routerLink]='"."'
+                 [fragment]="'about'">
 
         </div>
 
-        <div class = "orderButton" >
+        <div class = "orderButton">
 
-            <img class = "landingpageSVGSize" src = "assets/Images/orderButton.svg">
+            <img class = "landingpageSVGSize route"
+                 src = "assets/Images/orderButton.svg"
+                 [routerLink]='"."'
+                 [fragment]="'order'">
 
         </div>
 
         <div class = "contactButton" >
 
-            <img class = "landingpageSVGSize" src = "assets/Images/contactButton.svg">
+            <img class = "landingpageSVGSize route"
+                 src = "assets/Images/contactButton.svg"
+                 [routerLink]='"."'
+                 [fragment]="'contact'">
 
         </div>
 
@@ -25,8 +34,8 @@
             <img src = "assets/Images/tagline.svg">
 
         </div>
-        
-        
+
+
         <div class="instaHandle">
 
             <img class = "instaSVGSize" src = "assets/Images/instaHandle.svg">

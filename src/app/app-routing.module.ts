@@ -5,15 +5,19 @@ import { MainComponent } from './main/main.component';
 
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: 'home', component: MainComponent},
-  {path: '404', redirectTo: '/home'},
-  {path: '**', redirectTo: '/home'}
+  { path: '', component: MainComponent},
+  {path: '404', redirectTo: ''},
+  {path: '**', redirectTo: ''}
 ];
 
 
 @NgModule({
-  imports: [RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(appRoutes, {
+		// Enable the Angular 6+ router features for scrolling and anchors.
+		scrollPositionRestoration: "enabled",
+		anchorScrolling: "enabled",
+    onSameUrlNavigation: 'reload'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule {

@@ -1,4 +1,4 @@
-/* ::-moz-scrollbar,
-::-webkit-scrollbar {
-  display: none;
-} */
+.route {
+  outline: none;
+  cursor: pointer;
+}

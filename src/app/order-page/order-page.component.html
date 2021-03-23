@@ -1,10 +1,10 @@
 <div class = "backdrop">
 
-    
+
 
         <div class="hangTag">
 
-            <img class = "hangTagSizing" 
+            <img class = "hangTagSizing"
                  src = 'assets/Images/hangTag.png'
                  (load)="getThemeImageWidth()"
                  #themeImage>
@@ -44,7 +44,7 @@
                     [estate name]
                     <br>
                     <br>
-                    A mellow, long lasting buzz. 
+                    A mellow, long lasting buzz.
                 </span>
 
             </div>
@@ -53,13 +53,19 @@
 
          <div class = "aboutUsButton">
 
-            <img class = "orderpageSVGSize" src = "assets/Images/aboutUsButton.svg">
+            <img class = "orderpageSVGSize route"
+                 src = "assets/Images/aboutUsButton.svg"
+                 [routerLink]='"."'
+                 [fragment]="'about'">
 
         </div>
 
-        <div class = "contactButton" >
+        <div class = "contactButton">
 
-            <img class = "orderpageSVGSize" src = "assets/Images/contactButton.svg">
+            <img class = "orderpageSVGSize route"
+                 src = "assets/Images/contactButton.svg"
+                 [routerLink]='"."'
+                 [fragment]="'contact'">
 
         </div>
 
