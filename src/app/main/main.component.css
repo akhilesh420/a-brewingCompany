@@ -8,6 +8,7 @@
     top: 0%;
     left: 0%;
     
+    
 }
 
 .orderPage {
@@ -16,6 +17,8 @@
     position: absolute;
     top: 100vh;
     left: 0%;
+    margin: auto;
+    border-top: 3px solid #F7F7F2;
 }
 
 .aboutUsPage {
@@ -24,6 +27,7 @@
     position: absolute;
     top: 200vh;
     left: 0%;
+    border-top: 3px solid #F7F7F2;
 }
 
 .contactPage {
@@ -32,5 +36,6 @@
     position: absolute;
     top: 300vh;
     left: 0%;
+    border-top: 3px solid #F7F7F2;
 }
 
