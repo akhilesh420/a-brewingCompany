@@ -117,6 +117,10 @@
               "devServerTarget": "a-brewingCompany:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

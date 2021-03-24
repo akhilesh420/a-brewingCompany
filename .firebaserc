@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "abrewingcompany-c646d"
+  },
+  "targets": {
+    "abrewingcompany-c646d": {
+      "hosting": {
+        "a-brewingCompany": [
+          "abrewingcompany-c646d"
+        ]
+      }
+    }
+  }
+}
