@@ -10,7 +10,7 @@
 
 .grid {
     height: 100vh;
-    width: 790px;
+    width: 800px;
 }
 
 .landingpageSVGSize {
@@ -58,6 +58,7 @@
 }
 
 .logoPic {
+    
     position: absolute;
     bottom: -5px;
     right: 10%;
@@ -69,3 +70,108 @@
     width: auto;
 }
 
+@media only screen and (max-width: 800px) and (min-width: 550px) {
+    
+    
+    .aboutUsButton {
+        
+        padding-top: 20px;
+        padding-left: 10px;
+         
+    }
+    
+    .orderButton {
+        
+        padding-top: 20px;
+       
+    }
+    
+    .contactButton {
+        
+        padding-top: 20px;
+        
+    }
+
+    .tagline {
+        
+        padding-top: 80px;
+        padding-left: 10px;
+    
+    }
+
+    .instaHandle {
+       
+        padding-top: 15px;
+        padding-left: 10px;
+
+    }
+
+    .logoPic {
+    
+        bottom: 0px;
+        
+    }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 550px) {
+
+    .landingpageSVGSize {
+        height: 113px;
+        width: 95px;
+    }
+    
+    .aboutUsButton {
+        position: relative;
+        padding-top: 182px;
+        padding-left: 0px;
+        display: inline-block;
+        
+    }
+    
+    .orderButton {
+        position: relative;
+        padding-top: 182px;
+        padding-left: 61px;
+        display: inline-block;
+    }
+    
+    .contactButton {
+        position: relative;
+        padding-top: 182px;
+        padding-left: 61px;
+        display: inline-block;
+    }
+    
+    .tagline {
+        position: relative;
+        display: block;
+        padding-top: 109px;
+        padding-left: 0px;
+    
+    }
+    
+    
+    .instaHandle {
+     
+        display: none;
+        
+    }
+    
+    .logoPic {
+        
+        position: absolute;
+        bottom: -5px;
+        right: 2%;
+        
+    }
+    
+    .logoPicSizing {
+        height: 70vh;
+        width: auto;
+    }
+
+  }
