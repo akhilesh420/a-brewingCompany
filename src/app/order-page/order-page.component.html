@@ -12,7 +12,7 @@
         </div>
 
         <div class = "brewTextContent"
-             [ngStyle]='{"left": ((themeImageWidth + 78).toString() + "px")}'>
+             [ngStyle]='{"left": windowWidth === 1125 ? ((themeImageWidth + 78).toString() + "px") : null}'>
 
             <div class = "title">
 
