@@ -21,3 +21,15 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+@media only screen and (max-width: 600px) {
+    .orderButton {
+        top: unset;
+        bottom: 10px;
+    }
+    
+    .contactButton {
+        top: unset;
+        bottom: 10px;
+    }
+}

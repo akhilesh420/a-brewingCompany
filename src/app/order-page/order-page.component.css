@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+.moreInfoPhone {
+    display: none;
+}
+
 .hangTag {
     position: relative;
     display: block;
@@ -104,8 +108,10 @@
 @media only screen and (max-width: 1125px) {
 
     .brewTextContent {
-        top: 5%;
-        transform: translate(0%, 0%);
+        top: 15%;
+        transform: unset;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     .hideMe {
@@ -127,29 +133,33 @@
 
 @media only screen and (max-width: 800px) {
 
-    .brewTextContent {
-        top: 15%;
-        transform: unset;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
     .hideMe {
         display: none;
     }
-
 
 }
 
 @media only screen and (max-width: 600px) {
 
     .brewTextContent {
-        top: 15%;
+        top: 0;
         transform: unset;
         overflow: hidden;
         white-space: nowrap;
         width: 100vw;
-        height: 25vh;
+        height: 45vh;
+        left: 0px;
+        background-image: url("src/assets/Images/hangTagPhone.png");
+        background-size: cover;
+    }
+
+    .title {
+        padding-top: 20%;
+        padding-left: 20px;
+    }
+
+    .paragraph {
+        padding-left: 20px;
     }
 
     .hangTag {
@@ -160,8 +170,24 @@
         display: none;
     }
 
-    .hideMe {
-        display: none;
+    .bottleDetails {
+        left: 20px;
+        bottom: 15%;
+    }
+
+    .moreInfoPhone {
+        display: block;
+        padding-left: 20px;
+    }
+
+    .aboutUsButton {
+        bottom: 10px;
+        top: unset;
+    }
+    
+    .contactButton {
+        bottom: 10px;
+        top: unset; 
     }
 
 
