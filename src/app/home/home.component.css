@@ -75,9 +75,12 @@
     width: auto;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 550px) {
+@media only screen and (max-width: 800px) {
     
-    
+    .grid {
+        width: 100vw;
+    }
+
     .aboutUsButton {
         
         padding-top: 50px;
@@ -117,6 +120,11 @@
         
     }
 
+    .logoPicSizing {
+        height: 60vh;
+        width: auto;
+    }
+
 
   }
 
@@ -124,17 +132,21 @@
 
   @media only screen and (max-width: 550px) {
 
-    
-
-
     .aboutUsButton {
-        padding-top: none;
-        padding-left: none;
-        position: absolute;
+        padding-left: calc((100vw - 345px)/2);
+    }
+
+    .orderButton {
+      
+        padding-left: 30px;
+      
     }
     
+    .contactButton {
     
-    
+        padding-left: 30px;
+      
+    }
    
 
   }

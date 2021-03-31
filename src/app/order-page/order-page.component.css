@@ -22,6 +22,7 @@
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
+    left: 397px;
 }
 
 .heading {
@@ -98,4 +99,76 @@
 
 .dmButton {
     padding-top: 6px;
+}
+
+@media only screen and (max-width: 1125px) {
+
+    .brewTextContent {
+        top: 5%;
+        transform: translate(0%, 0%);
+    }
+
+    .hideMe {
+        display: none;
+    }
+
+    .bottleDetails {
+        top: unset;
+        bottom: 20%;
+        transform: unset;
+        left: 397px;
+        right: unset;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .brewTextContent {
+        top: 15%;
+        transform: unset;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .hideMe {
+        display: none;
+    }
+
+    .bottleDetails {
+        bottom: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .brewTextContent {
+        top: 15%;
+        transform: unset;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .hangTag {
+        display: none;
+    }
+
+    .paraContent {
+        display: none;
+    }
+
+    .hideMe {
+        display: none;
+    }
+
+    .bottleDetails {
+        bottom: 10%;
+    }
+
 }
