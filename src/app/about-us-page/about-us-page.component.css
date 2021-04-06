@@ -1,3 +1,5 @@
+
+
 .orderButton {
     position: absolute;
     top: 20px;
@@ -26,8 +28,8 @@
     font-family: 'Courier Prime';
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
-    line-height: 20px;
+    font-size: 28px;
+    line-height: 26px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     padding-top: 10px;
@@ -37,23 +39,85 @@
     font-family: 'Courier Prime';
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     padding-top: 24px;
 }
+
+.subHeadingOne {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-top: 24px;
+}
+
 
 .para {
 
     font-family: 'Cutive';
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 18px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     padding-top: 24px;
 
 }
+
+@media only screen and (max-width: 600px) {
+
+    .title {
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+    
+    .subHeading {
+
+        font-size: 3.2vw;
+        line-height: 3.6vw;
+        
+    }
+    
+    .subHeadingOne {
+        
+        font-size: 3.0vw;
+        line-height: 3.2vw;
+        
+    }
+    
+    
+    .para {
+
+        font-size: 2.4vw;
+        line-height: 3.0vw;
+
+    }
+
+    .orderButton {
+        
+        bottom: 10px;
+        top: unset;
+        
+    }
+    
+    .contactButton {
+        
+        top: unset;
+        bottom: 10px;
+    }
+
+    
+
+}
+
+
+
+
 

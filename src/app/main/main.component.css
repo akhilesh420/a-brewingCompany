@@ -2,35 +2,65 @@
 
 
 .homePage {
-    height: 100vh;
+    height: 720px;
     width: 100vw;
     position: absolute;
     top: 0%;
-    left: 0%;
-    
+    left: 0%;  
+    padding: none;
+    margin: none;
+   
 }
 
 .orderPage {
-    height: 100vh;
+    height: 720px;
     width: 100vw;
     position: absolute;
     top: 100vh;
-    left: 0%;
+    
 }
 
 .aboutUsPage {
-    height: 100vh;
+    height: 720px;
     width: 100vw;
     position: absolute;
     top: 200vh;
     left: 0%;
+    background: linear-gradient(359.6deg, #CFB284 0.3%, #D7AE7A 42.2%, #DDAC73 67.36%, #E3A96B 91.02%);
+   
 }
 
 .contactPage {
-    height: 100vh;
+    height: 720px;
     width: 100vw;
     position: absolute;
     top: 300vh;
     left: 0%;
+    background: linear-gradient(180deg, #CFB284 0%, #D4B07E 59.48%, #DBAD75 89.27%, #E3A96B 100%);
+    
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .homePage {
+        height: 100vh;
+        min-height: 675px;
+    }
+
+    .orderPage {
+        height: 100vh;
+        min-height: 675px;
+    }
+
+    .contactPage {
+        height: 100vh;
+        min-height: 675px;
+    }
+
+    .aboutUsPage {
+        height: 100vh;
+        min-height: 675px;
+    }
+
 }
 
