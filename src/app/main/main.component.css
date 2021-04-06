@@ -9,11 +9,7 @@
     left: 0%;  
     padding: none;
     margin: none;
-    /* border: 5px solid #F7F7F2;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    overflow: hidden; */
+   
 }
 
 .orderPage {
@@ -21,11 +17,7 @@
     width: 100vw;
     position: absolute;
     top: 100vh;
-    /* border: 5px solid #F7F7F2;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    overflow: hidden; */
+    
 }
 
 .aboutUsPage {
@@ -34,11 +26,8 @@
     position: absolute;
     top: 200vh;
     left: 0%;
-    /* border: 5px solid #F7F7F2;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    overflow: hidden; */
+    background: linear-gradient(359.6deg, #CFB284 0.3%, #D7AE7A 42.2%, #DDAC73 67.36%, #E3A96B 91.02%);
+   
 }
 
 .contactPage {
@@ -47,10 +36,7 @@
     position: absolute;
     top: 300vh;
     left: 0%;
-    /* border: 5px solid #F7F7F2;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    overflow: hidden; */
+    background: linear-gradient(180deg, #CFB284 0%, #D4B07E 59.48%, #DBAD75 89.27%, #E3A96B 100%);
+    
 }
 
