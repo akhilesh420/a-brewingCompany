@@ -10,12 +10,13 @@
     right: 19px;
 }
 
+
 .aboutUsSVGSize {
     height: 70px;
     width: auto;
 }
 
-.svg {
+.instaHandle {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,7 +28,7 @@
         top: unset;
         bottom: 10px;
     }
-    
+
     .contactButton {
         top: unset;
         bottom: 10px;
